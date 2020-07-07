@@ -172,7 +172,7 @@ game.onUpdateInterval(5000, function () {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, Math.randomRange(-50, 50), Math.randomRange(-50, 50))
+`, randint(-50, 50), randint(-50, 50))
     bee = sprites.createProjectileFromSide(img`
 . . . . . . . . . . . . . . . . 
 . f f f f f f f f f f f f f . . 
@@ -190,6 +190,6 @@ game.onUpdateInterval(5000, function () {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, Math.randomRange(-50, 50), Math.randomRange(-50, 50))
+`, randint(-50, 50), randint(-50, 50))
     bee.setKind(SpriteKind.Enemy)
 })
